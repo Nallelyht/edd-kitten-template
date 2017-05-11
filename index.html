@@ -8,11 +8,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
-    <section class="container">
-      <div class="img-container">
-        <img alt="scene" class="image" src="img/Landscape.jpg"/>
-        <img alt="kitten" class="kitten image"src="img/kitten-medium.png"/>    
-      </div>
+    <section class="container img-container">
+      <picture clas="kitten">
+        <source media="(min-width: 1200px)" srcset="img/kitten-medium.png"/>
+        <source media="(max-width: 768px)" srcset="img/kitten-large.png"/>
+        <source media="(max-width: 768px)" srcset="img/kitten-small.png"/>
+        <img src="img/kitten-small.png" alt="Flowers" style="width:auto;"/>
+      </picture>   
     </section>
   </body>
 </html>
