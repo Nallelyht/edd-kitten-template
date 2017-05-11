@@ -1,0 +1,25 @@
+body{
+  margin: 0 auto;
+  padding: 0 auto;
+  width: 90%;
+  max-width: 1200px;
+}
+.container{
+  width: 100%;
+  margin: 0px auto;
+}
+.image{
+  width: 100%;
+  height: auto;
+}
+.img-container{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.kitten{
+  position: absolute;
+  width: 50%;
+  height: auto;
+}
